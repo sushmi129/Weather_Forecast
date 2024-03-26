@@ -28,6 +28,9 @@ const MiniCard = ({ time, temp, iconString }) => {
       } else if (iconString.toLowerCase().includes('wind')) {
         setIcon(wind)
       }
+      else{
+        setIcon(sun)
+      }
     }
   }, [iconString])
   return (
@@ -37,7 +40,7 @@ const MiniCard = ({ time, temp, iconString }) => {
       </p>
       <hr />
       <div className='w-full flex justify-center items-center flex-1'>
-        <img src={icon} alt="forecast not available" className='w-[4rem] h-[4rem]' />
+        <img src={icon} alt="forecast not available" className=' text-black w-[4rem] h-[4rem]' />
       </div>
       <p className='text-center text-black font-bold'>{temp}&deg;C</p>
     </div>
