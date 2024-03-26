@@ -40,6 +40,9 @@ const WeatherCard = ({
       } else if (iconString.toLowerCase().includes('wind')) {
         setIcon(wind)
       }
+      else{
+        setIcon(sun)
+      }
     }
   }, [iconString])
 
