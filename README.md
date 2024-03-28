@@ -9,12 +9,12 @@ This is a Weather Forecast website, which can be used to check weather Forecast 
 
 Technologies Used
 ------------------------------------------------------------------
-*HTML
-*CSS
-*JS
-*React
+"*"HTML
+"*"CSS
+"*"JS
+"*"React
 
 
 Live Preview
 ------------------------------------------------------------------
-https://kudala-bharani.github.io/Weather-Forecast/
+https://sushmi129.github.io/Weather_Forecast/
